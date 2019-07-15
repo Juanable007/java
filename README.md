@@ -540,8 +540,15 @@ Jdbc:
                   3.        删除记录delete from account where id =3
                   4. 创建 create table stu (id int ,name ,varchar(20));
               resulset:结果集对象
-                      
-                   
+
+
+
+
+jdbc工具类jdbcUtils
+目的:简化书写
+分析:
+	      
+	      
               preparedstatement :执行sql的对象
     
     
