@@ -546,7 +546,22 @@ Jdbc:
 
 jdbc工具类jdbcUtils
 目的:简化书写
-分析:
+分析:1.注册驱动也抽取
+    2.抽取一个方法获取链接对象
+    	不想传递参数还得保证工具类的通用性,properties的路径:获取src 路径下文件的方式
+					1url = res classLoader.getresource("jdbc.properties");
+					 string path = res.getpath;
+					 sout("path");
+					 pro.load(new fileReader(path));
+					 
+    3.抽取一个方法释放资源
+    
+ 练习:   
+ 	通过键盘录入用户名密码
+	 判断用户是否成功
+	 步骤:创建一个数据库表
+	 	
+ 
 	      
 	      
               preparedstatement :执行sql的对象
